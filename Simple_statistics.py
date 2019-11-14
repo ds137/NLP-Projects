@@ -19,5 +19,5 @@ result_fdist = sorted([w for w in set(text5) if len(w) > 7 and fdist5[w] > 7]) #
 print (result_fdist)
 
 #collocations and bigrams
-#bigrams are 2-grams 
-bigrams = (['he' ,'said', 'bye' , 'as', 'he', 'walked' , 'through', 'the', 'door' ] 
+#bigrams are 2-grams collocations
+bigrams = (['he' ,'said', 'bye' , 'as', 'he', 'walked' , 'through', 'the', 'door' ]
