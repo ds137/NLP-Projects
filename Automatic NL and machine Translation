@@ -1,0 +1,38 @@
+###Involving word sense disambiguation e.g semantics given a specfic context
+a serve: help with food or drink, hold office, put ball into play
+b. dish plate; course of meal, commncations device
+'he served the dish' then both words being used with the topic of 'food', not a
+shift in topics - we automatically disambiguate words using context of the surrouding words
+e.g we can see 'by' can interpret the meaning
+1. i, The lost children were found by the searchers(agentive)
+ii. The lost children were found by the mountain (locative)
+iii. the lost children were found by the afternoon (temporal)
+
+Prounoun resolution
+
+
+3.
+iv. The thieves stole the paintings. They were subsequently SOLD
+v. The thieves stole The paintings. They were subsequently CAUGHT
+vi. The thieves stole the paintings. They were subsequently found
+
+One is ambigious, answering 'who did what to whom', invovles finding the antecedent of the Prounoun in vi
+they - the thieves or the paintings?
+Computaional techniques for resolving this include ANAPHORA RESOLUTION [what a pronoun or noun phrase refers to]
+and SEMANTIC ROLE LABELING [Identifying how a noun phrase relates to a verb: agent, patient, insturmnet]
+
+GENERATING LANGUAGUE OUTPUT:
+Machine needs to be able to answer a user's question.
+
+
+SUMMARY
+1.Texts are represented in Python using lists: ['Monty', 'Python']. We can use indexing, slicing, and the len() function on lists.
+2.A word "token" is a particular appearance of a given word in a text; a word "type" is the unique form of the word as a particular sequence of letters. We count word tokens using len(text) and word types using len(set(text)).
+3.We obtain the vocabulary of a text t using sorted(set(t)).
+4.We operate on each item of a text using [f(x) for x in text].
+5.To derive the vocabulary, collapsing case distinctions and ignoring punctuation, we can write set(w.lower() for w in text if w.isalpha()).
+6.We process each word in a text using a for statement, such as for w in t: or for word in text:. This must be followed by the colon character and an indented block of code, to be executed each time through the loop.
+7.We test a condition using an if statement: if len(word) < 5:. This must be followed by the colon character and an indented block of code, to7 be executed only if the condition is true.
+8.A frequency distribution is a collection of items along with their frequency counts (e.g., the words of a text and their frequency of appearance).
+9.A function is a block of code that has been assigned a name and can be reused. Functions are defined using the def keyword, as in def mult(x, y); x and y are parameters of the function, and act as placeholders for actual data values.
+10. A function is called by specifying its name followed by zero or more arguments inside parentheses, like this: texts(), mult(3, 4), len(text1).
